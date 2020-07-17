@@ -1,8 +1,15 @@
 // Your variable overrides
 $body-bg: #000;
 $body-color: white;
-$primary: hotpink;
-$font-family-base: Arial;
+$primary: #f05a67;
+$font-family-base: lato;
+
+//https://coolors.co/f05a67-000500-6ea4bf-c2efeb-ecfee8
+
+
+.bennebank {
+    background-image:  url("assets/benne-auf-ner-bank.jpg");
+  }
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
